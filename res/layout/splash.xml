@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3b80a"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+	<TextView 
+	    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center|bottom"
+        android:text="@string/taxi"
+        android:textSize="30sp"
+        android:textColor="#1d1166"
+        android:shadowColor="#501d1166"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="1"
+        android:textStyle="bold" />
+
+	<RelativeLayout 
+	    android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border"
+            
+            android:gravity="center">
+           
+		    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="247dp"
+		        android:layout_height="73dp"
+		        android:src="@drawable/logotaxi3" />
+	    
+	     </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView 
+	    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+     	android:gravity="center|top"
+        android:text="@string/torun"
+        android:textSize="30sp"
+        android:textColor="#1d1166"
+        android:shadowColor="#501d1166"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="1"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold" />
+    
+</LinearLayout>

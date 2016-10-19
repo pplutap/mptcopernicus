@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:state_enabled="true" >
+        <shape>
+            <gradient android:angle="270" android:endColor="#25166b" android:startColor="#665ba9" />
+
+            <stroke android:width="0.5dp" android:color="#444444" />
+
+            <corners android:bottomRightRadius="1dp" android:topLeftRadius="1dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+		<shape>
+            <gradient android:angle="270" android:endColor="#acacac" android:startColor="#858485" />
+
+            <stroke android:width="0.5dp" android:color="#444444" />
+
+            <corners android:bottomRightRadius="2dp" android:topLeftRadius="1dp" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true" >
+		<shape>
+            <gradient android:angle="270" android:endColor="#c1c200" android:startColor="#aab300" />
+
+            <stroke android:width="0.5dp" android:color="#444444" />
+
+            <corners android:bottomRightRadius="1dp" android:topLeftRadius="1dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <gradient android:angle="270" android:endColor="#665ba9" android:startColor="#25166b" />
+
+            <stroke android:width="0.5dp" android:color="#444444" />
+
+            <corners android:bottomRightRadius="1dp" android:topLeftRadius="1dp" />
+        </shape>
+    </item>
+</selector>

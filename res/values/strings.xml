@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="street_name">Nazwa ulicy</string>
+    <string name="street_number">Nr bloku/nr domu</string>
+    <string name="city">Miasto</string>
+    <string name="password">Uwagi, rodzaj auta (van, osobowe) itp</string>
+    <string name="phone">Telefon</string>
+    <string name="signUp">Zamów taksówkę !</string>
+    <string name="time">Godzina odjazdu</string>
+    <string name="headquarters_connection">1-9191, 1-9192</string>
+    <string name="getting_data">1-9191, 1-9192</string>
+    <string name="success_data">1-9191, 1-9192</string>
+    <string name="_196_29">1-9191, 1-9192</string>
+    <string name="nr_1">1-9192</string>
+    <string name="nr_2">1-9191</string>
+    <string name="taxi">T A X I</string>
+    <string name="torun">T O R U Ń</string>
+    <string name="zadzwo_">Zadzwoń!</string>
+    <string name="zam_w_taks_wk_">Zamów taksówkę!</string>
+    <string name="logo">logo</string>
+    <string name="loading">loading</string>
+    <string name="fds">fds</string>
+</resources>
